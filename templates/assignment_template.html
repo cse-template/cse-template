@@ -31,21 +31,19 @@ $unitHead
 		</div>
 
 		<script>
-			function annotations(sw, notes, annotated,id) {
+			function annotations(boolean, notes, annotated,id) {
 				var doc;
 				var drive;
-
-				//0 value means annotations are off 
-				if (sw == 0) {
-					doc = "web/viewer.html?file=../"+notes
-				}  
-
-				//1 value turns annotations on
-				else {
+				if (boolean) {
 					doc = "web/viewer.html?file=../" +annotated
-				}
+					
+				} 
 
-                document.getElementById(id).src = doc;
+				else {
+					doc = "web/viewer.html?file=../"+notes
+				}
+				
+				document.getElementById(id).src = doc;
 			}
 		</script>
 
