@@ -17,7 +17,7 @@ for (k,v) in appData.items():
     pdf="../output/app/"+file+".pdf"
     html="../output/app/"+file+".html"
     #where will tex file for applications be shown? 
-    print("file: "+file)
+    # print("file: "+file)
     tex= zip_file(file, "app-flat")
     #print(tex)
 

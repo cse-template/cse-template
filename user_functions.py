@@ -291,7 +291,7 @@ def create_unit_boxes():
 		#pdfs
 		if('content' in unitData[i]):
 			for content in unitData[i]['content']:
-				print(content['name'])
+				# print(content['name'])
 				pdfjsID = content['name'].replace(" ", "-")
 				boxString += "<a href=\"unit""" +str(unitNumber)+ """.html#"""+ pdfjsID+"""\" >""" + content['name'] + """</a>&emsp;"""				
 		
