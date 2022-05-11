@@ -1,14 +1,10 @@
-https://discrete-math-for-cs.github.io/website/unit9.html
-https://discrete-math-for-cs.github.io/website/unit5.html
 https://discrete-math-for-cs.github.io/website/conventions.html
 https://discrete-math-for-cs.github.io/website/index.html
 https://discrete-math-for-cs.github.io/website/feedback.html
-https://discrete-math-for-cs.github.io/website/unit4.html
+https://discrete-math-for-cs.github.io/website/office_hours.html
 https://discrete-math-for-cs.github.io/website/modular.html
-https://discrete-math-for-cs.github.io/website/unit8.html
 https://discrete-math-for-cs.github.io/website/overview_calendar.html
 https://discrete-math-for-cs.github.io/website/computers.html
-https://discrete-math-for-cs.github.io/website/unit3.html
 https://discrete-math-for-cs.github.io/website/logic.html
 https://discrete-math-for-cs.github.io/website/recommendation-systems.html
 https://discrete-math-for-cs.github.io/website/proofs.html
@@ -24,10 +20,6 @@ https://discrete-math-for-cs.github.io/website/supplemental_videos.html
 https://discrete-math-for-cs.github.io/website/courseInfo.html
 https://discrete-math-for-cs.github.io/website/induction.html
 https://discrete-math-for-cs.github.io/website/codes-and-information.html
-https://discrete-math-for-cs.github.io/website/unit7.html
-https://discrete-math-for-cs.github.io/website/unit10.html
-https://discrete-math-for-cs.github.io/website/unit11.html
-https://discrete-math-for-cs.github.io/website/unit6.html
 https://discrete-math-for-cs.github.io/website/translate.html
 https://discrete-math-for-cs.github.io/website/assignments.html
 https://discrete-math-for-cs.github.io/website/notation.html

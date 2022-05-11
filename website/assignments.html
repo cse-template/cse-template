@@ -17,7 +17,7 @@
 	<meta name="description" content="Discrete Math for Computer Science">
 	<meta name="author" content="Mia Minnes">
 
-	<title>CSE 20 Fall 2021</title>
+	<title>CSE 1000 Fall 2021</title>
 
 	<!-- Bootstrap Core CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -42,7 +42,7 @@
 	<div class="content">
 
 		 <div class="sidebar"id="unit"><div class="logo-details"><div class="logo_name">
-	<i class='bx bx-home-smile'></i> </div>  <a href=courseInfo.html class="logo_name">CSE 20 Fall 2021</a> <!--NAME-->
+	<i class='bx bx-home-smile'></i> </div>  <a href=courseInfo.html class="logo_name">CSE 1000 Fall 2021</a> <!--NAME-->
 			<i class='bx bx-chevron-right' id="btn" ></i>
 			</div>
 			
@@ -54,7 +54,7 @@
 					<span class="links_name">Calendar</span>
 				</a>
 				<span class="tooltip">Calendar</span>
-			</li><li><a href= " assignments.html" aria-label="Go to Assignments "><i class='bx bxs-detail'></i><span class="links_name"> Assignments</span></a><span class="tooltip"> Assignments</span></li><li><a href= " glossary.html" aria-label="Go to Glossary "><i class='bx bxs-book-open'></i><span class="links_name"> Glossary</span></a><span class="tooltip"> Glossary</span></li><li><a href= " supplemental_videos.html" aria-label="Go to Supplemental Videos "><i class='bx bxs-videos'></i><span class="links_name"> Supplemental Videos</span></a><span class="tooltip"> Supplemental Videos</span></li></ul> </div> 
+			</li><li><a href= " assignments.html" aria-label="Go to Assignments "><i class='bx bxs-detail'></i><span class="links_name"> Assignments</span></a><span class="tooltip"> Assignments</span></li><li><a href= " glossary.html" aria-label="Go to Glossary "><i class='bx bxs-book-open'></i><span class="links_name"> Glossary</span></a><span class="tooltip"> Glossary</span></li><li><a href= " supplemental_videos.html" aria-label="Go to Supplemental Videos "><i class='bx bxs-videos'></i><span class="links_name"> Supplemental Videos</span></a><span class="tooltip"> Supplemental Videos</span></li><li><a href= " office_hours.html" aria-label="Go to Office Hours "><i class='bx bxs-help-circle'></i><span class="links_name"> Office Hours</span></a><span class="tooltip"> Office Hours</span></li></ul> </div> 
 	        <script>
 		    let sidebar = document.querySelector(".sidebar");
 		    let closeBtn = document.querySelector("#btn");
@@ -81,9 +81,9 @@
 	        </script>
 
 		 <div id="mySidebar" class="collapsedSidebar">
-			<a href=courseInfo.html class="homeMobile"> CSE 20 Fall 2021</a> <!--NAME-->
+			<a href=courseInfo.html class="homeMobile"> CSE 1000 Fall 2021</a> <!--NAME-->
 		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×&nbsp;</a>
-			<a href=overview_calendar.html>Calendar</a><a href="assignments.html"> Assignments </a><a href="glossary.html"> Glossary </a><a href="supplemental_videos.html"> Supplemental Videos </a><a href= "unit1.html"">Week 0 and 1</a><a href= "unit2.html"">Week 2</a><a href= "unit3.html"">Week 3</a><a href= "unit4.html"">Week 4</a><a href= "unit5.html"">Week 5</a><a href= "unit6.html"">Week 6</a><a href= "unit7.html"">Week 7</a><a href= "unit8.html"">Week 8</a><a href= "unit9.html"">Week 9</a><a href= "unit10.html"">Week 10</a><a href= "unit11.html"">Finals week</a> </div>
+			<a href=overview_calendar.html>Calendar</a><a href="assignments.html"> Assignments </a><a href="glossary.html"> Glossary </a><a href="supplemental_videos.html"> Supplemental Videos </a><a href="supplemental_videos.html"> Office Hours </a><a href= "unit1.html"">Week 0 and 1</a><a href= "unit2.html"">Week 2</a> </div>
 
 		<div class="openbutton">
 			<button class="openbtn"  onclick="openNav()">☰ Menu</button> 
@@ -110,7 +110,7 @@
 		<div class="row">
 			<div class="col-lg-12 text-left">
 				<h1 tabindex="1">Assignments</h1>
-				<p>Compiled assignments file <a href="../output/assignments/assignments-compiled.pdf" download>download</a></p>
+				<!-- <p>Compiled assignments file <a href="../output/assignments/assignments-compiled.pdf" download>download</a></p> -->
 			</div>
 		</div>
 
@@ -120,15 +120,11 @@
 				<div class="box outcome"  id="box1"><button type="button" class="collapsible"
 			"> 
 <h2 style= "line-height:20px;"> <i id="sideBtn1" class='bx bx-caret-right'></i> 
-			Hw1 Definitions And Notation </h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: 10/5/21 at 11pm</p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
-		href=../output/assignments/hw1-definitions-and-notation-CSE20F21.pdf download>PDF</a> <a tabindex = "2" style= "display: inline-block;" class="button LaTeX" aria-label="Download .LaTeX" 
-			href=../notes/assignments-flat/hw1-definitions-and-notation-CSE20F21.tex download>LaTeX</a>  <a tabindex = "2" style= "display: inline-block;" class="button HTML" aria-label="Open HTML file of Document in New Tab" 
-			href= ../output/assignments/hw1-definitions-and-notation-CSE20F21.html target="HTML">Raw HTML</a> <a tabindex = "2" class="button on" aria-label="Solutions On" id="solutionsOnButton1/" href="javascript:void(0)" >Solutions On</a>
-			<a tabindex = "2" class="button off" aria-label="Solutions Off" id="solutionsOffButton1/" href="javascript:void(0)" >Solutions Off</a>  <script> document.getElementById("solutionsOnButton1/").onclick = function() {annotations(1,
-			"../output/assignments/hw1-definitions-and-notation-CSE20F21.pdf","../files/hw1-sol-CSE20F21.pdf", "hw1-definitions-and-notation-CSE20F21")};document.getElementById("solutionsOffButton1/").onclick = function() {annotations(0,
-			"../output/assignments/hw1-definitions-and-notation-CSE20F21.pdf","../files/hw1-sol-CSE20F21.pdf", "hw1-definitions-and-notation-CSE20F21")};
-			</script> <br> <iframe class="PDFjs" id="hw1-definitions-and-notation-CSE20F21" src="web/viewer.html?file=../../output/assignments/hw1-definitions-and-notation-CSE20F21.pdf" 
-		title="webviewer" frameborder="0" width="100%" height="600"></iframe> <script>
+			Hw1 Title</h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> Description</p> <p> Due: 10/5/21 at 11pm</p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
+		href=../output/assignments/hw1-title.pdf download>PDF</a> <a tabindex = "2" style= "display: inline-block;" class="button LaTeX" aria-label="Download .LaTeX" 
+			href= download>LaTeX</a>  <a tabindex = "2" style= "display: inline-block;" class="button HTML" aria-label="Open HTML file of Document in New Tab" 
+			href= ../output/assignments/hw1-title.html target="HTML">Raw HTML</a><br> <br> <iframe class="PDFjs" id="hw1-title" src="web/viewer.html?file=../../output/assignments/hw1-title.pdf" 
+		title="webviewer" frameborder="0" width="300%" height="600"></iframe> <script>
 			 toggle = document.querySelector('.toggle input')
 
 			toggle.addEventListener('click', () => {
@@ -155,15 +151,30 @@
 		</script></div></div><div class="box outcome"  id="box2"><button type="button" class="collapsible"
 			"> 
 <h2 style= "line-height:20px;"> <i id="sideBtn2" class='bx bx-caret-right'></i> 
-			Hw2 Numbers </h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: 10/12/21 at 11pm</p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
+			Hw2 Numbers </h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: </p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
 		href=../output/assignments/hw2-numbers-CSE20F21.pdf download>PDF</a> <a tabindex = "2" style= "display: inline-block;" class="button LaTeX" aria-label="Download .LaTeX" 
 			href=../notes/assignments-flat/hw2-numbers-CSE20F21.tex download>LaTeX</a>  <a tabindex = "2" style= "display: inline-block;" class="button HTML" aria-label="Open HTML file of Document in New Tab" 
-			href= ../output/assignments/hw2-numbers-CSE20F21.html target="HTML">Raw HTML</a> <a tabindex = "2" class="button on" aria-label="Solutions On" id="solutionsOnButton2/" href="javascript:void(0)" >Solutions On</a>
-			<a tabindex = "2" class="button off" aria-label="Solutions Off" id="solutionsOffButton2/" href="javascript:void(0)" >Solutions Off</a>  <script> document.getElementById("solutionsOnButton2/").onclick = function() {annotations(1,
-			"../output/assignments/hw2-numbers-CSE20F21.pdf","../files/hw2-sol-CSE20F21.pdf", "hw2-numbers-CSE20F21")};document.getElementById("solutionsOffButton2/").onclick = function() {annotations(0,
-			"../output/assignments/hw2-numbers-CSE20F21.pdf","../files/hw2-sol-CSE20F21.pdf", "hw2-numbers-CSE20F21")};
-			</script> <br> <iframe class="PDFjs" id="hw2-numbers-CSE20F21" src="web/viewer.html?file=../../output/assignments/hw2-numbers-CSE20F21.pdf" 
-		title="webviewer" frameborder="0" width="100%" height="600"></iframe> <script>
+			href= ../output/assignments/hw2-numbers-CSE20F21.html target="HTML">Raw HTML</a><br> <label>Solutions<input type="checkbox" id="toggle-2">
+				<span class="slider round"></span>
+				<script>
+					annotated2 = false;
+					document.getElementById("toggle-2").onclick = function() {
+						if(annotated2  == false) {
+							console.log("false to true");
+							annotated2  = true;
+							annotations(true, "../output/assignments/hw2-numbers-CSE20F21.pdf","../files/hw2-sol-CSE20F21.pdf", "hw2-numbers-CSE20F21")
+						}
+						else {
+							console.log("true to false");
+							annotated2  = false;
+							annotations(false, "../output/assignments/hw2-numbers-CSE20F21.pdf","../files/hw2-sol-CSE20F21.pdf", "hw2-numbers-CSE20F21")
+						}
+					}
+
+					
+				</script>
+			 <br> <iframe class="PDFjs" id="hw2-numbers-CSE20F21" src="web/viewer.html?file=../../output/assignments/hw2-numbers-CSE20F21.pdf" 
+		title="webviewer" frameborder="0" width="300%" height="600"></iframe> <script>
 			 toggle = document.querySelector('.toggle input')
 
 			toggle.addEventListener('click', () => {
@@ -190,15 +201,30 @@
 		</script></div></div><div class="box outcome"  id="box3"><button type="button" class="collapsible"
 			"> 
 <h2 style= "line-height:20px;"> <i id="sideBtn3" class='bx bx-caret-right'></i> 
-			Hw3 Circuits And Logic </h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: 10/26/21 at 11pm</p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
+			Hw3 Circuits And Logic </h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: </p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
 		href=../output/assignments/hw3-circuits-and-logic-CSE20F21.pdf download>PDF</a> <a tabindex = "2" style= "display: inline-block;" class="button LaTeX" aria-label="Download .LaTeX" 
 			href=../notes/assignments-flat/hw3-circuits-and-logic-CSE20F21.tex download>LaTeX</a>  <a tabindex = "2" style= "display: inline-block;" class="button HTML" aria-label="Open HTML file of Document in New Tab" 
-			href= ../output/assignments/hw3-circuits-and-logic-CSE20F21.html target="HTML">Raw HTML</a> <a tabindex = "2" class="button on" aria-label="Solutions On" id="solutionsOnButton3/" href="javascript:void(0)" >Solutions On</a>
-			<a tabindex = "2" class="button off" aria-label="Solutions Off" id="solutionsOffButton3/" href="javascript:void(0)" >Solutions Off</a>  <script> document.getElementById("solutionsOnButton3/").onclick = function() {annotations(1,
-			"../output/assignments/hw3-circuits-and-logic-CSE20F21.pdf","../files/hw3-sol-CSE20F21.pdf", "hw3-circuits-and-logic-CSE20F21")};document.getElementById("solutionsOffButton3/").onclick = function() {annotations(0,
-			"../output/assignments/hw3-circuits-and-logic-CSE20F21.pdf","../files/hw3-sol-CSE20F21.pdf", "hw3-circuits-and-logic-CSE20F21")};
-			</script> <br> <iframe class="PDFjs" id="hw3-circuits-and-logic-CSE20F21" src="web/viewer.html?file=../../output/assignments/hw3-circuits-and-logic-CSE20F21.pdf" 
-		title="webviewer" frameborder="0" width="100%" height="600"></iframe> <script>
+			href= ../output/assignments/hw3-circuits-and-logic-CSE20F21.html target="HTML">Raw HTML</a><br> <label>Solutions<input type="checkbox" id="toggle-3">
+				<span class="slider round"></span>
+				<script>
+					annotated3 = false;
+					document.getElementById("toggle-3").onclick = function() {
+						if(annotated3  == false) {
+							console.log("false to true");
+							annotated3  = true;
+							annotations(true, "../output/assignments/hw3-circuits-and-logic-CSE20F21.pdf","../files/hw3-sol-CSE20F21.pdf", "hw3-circuits-and-logic-CSE20F21")
+						}
+						else {
+							console.log("true to false");
+							annotated3  = false;
+							annotations(false, "../output/assignments/hw3-circuits-and-logic-CSE20F21.pdf","../files/hw3-sol-CSE20F21.pdf", "hw3-circuits-and-logic-CSE20F21")
+						}
+					}
+
+					
+				</script>
+			 <br> <iframe class="PDFjs" id="hw3-circuits-and-logic-CSE20F21" src="web/viewer.html?file=../../output/assignments/hw3-circuits-and-logic-CSE20F21.pdf" 
+		title="webviewer" frameborder="0" width="300%" height="600"></iframe> <script>
 			 toggle = document.querySelector('.toggle input')
 
 			toggle.addEventListener('click', () => {
@@ -225,15 +251,30 @@
 		</script></div></div><div class="box outcome"  id="box4"><button type="button" class="collapsible"
 			"> 
 <h2 style= "line-height:20px;"> <i id="sideBtn4" class='bx bx-caret-right'></i> 
-			Hw4 Proofs And Sets </h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: 11/2/21 at 11pm</p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
+			Hw4 Proofs And Sets </h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: </p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
 		href=../output/assignments/hw4-proofs-and-sets-CSE20F21.pdf download>PDF</a> <a tabindex = "2" style= "display: inline-block;" class="button LaTeX" aria-label="Download .LaTeX" 
 			href=../notes/assignments-flat/hw4-proofs-and-sets-CSE20F21.tex download>LaTeX</a>  <a tabindex = "2" style= "display: inline-block;" class="button HTML" aria-label="Open HTML file of Document in New Tab" 
-			href= ../output/assignments/hw4-proofs-and-sets-CSE20F21.html target="HTML">Raw HTML</a> <a tabindex = "2" class="button on" aria-label="Solutions On" id="solutionsOnButton4/" href="javascript:void(0)" >Solutions On</a>
-			<a tabindex = "2" class="button off" aria-label="Solutions Off" id="solutionsOffButton4/" href="javascript:void(0)" >Solutions Off</a>  <script> document.getElementById("solutionsOnButton4/").onclick = function() {annotations(1,
-			"../output/assignments/hw4-proofs-and-sets-CSE20F21.pdf","../files/hw4-sol-CSE20F21.pdf", "hw4-proofs-and-sets-CSE20F21")};document.getElementById("solutionsOffButton4/").onclick = function() {annotations(0,
-			"../output/assignments/hw4-proofs-and-sets-CSE20F21.pdf","../files/hw4-sol-CSE20F21.pdf", "hw4-proofs-and-sets-CSE20F21")};
-			</script> <br> <iframe class="PDFjs" id="hw4-proofs-and-sets-CSE20F21" src="web/viewer.html?file=../../output/assignments/hw4-proofs-and-sets-CSE20F21.pdf" 
-		title="webviewer" frameborder="0" width="100%" height="600"></iframe> <script>
+			href= ../output/assignments/hw4-proofs-and-sets-CSE20F21.html target="HTML">Raw HTML</a><br> <label>Solutions<input type="checkbox" id="toggle-4">
+				<span class="slider round"></span>
+				<script>
+					annotated4 = false;
+					document.getElementById("toggle-4").onclick = function() {
+						if(annotated4  == false) {
+							console.log("false to true");
+							annotated4  = true;
+							annotations(true, "../output/assignments/hw4-proofs-and-sets-CSE20F21.pdf","../files/hw4-sol-CSE20F21.pdf", "hw4-proofs-and-sets-CSE20F21")
+						}
+						else {
+							console.log("true to false");
+							annotated4  = false;
+							annotations(false, "../output/assignments/hw4-proofs-and-sets-CSE20F21.pdf","../files/hw4-sol-CSE20F21.pdf", "hw4-proofs-and-sets-CSE20F21")
+						}
+					}
+
+					
+				</script>
+			 <br> <iframe class="PDFjs" id="hw4-proofs-and-sets-CSE20F21" src="web/viewer.html?file=../../output/assignments/hw4-proofs-and-sets-CSE20F21.pdf" 
+		title="webviewer" frameborder="0" width="300%" height="600"></iframe> <script>
 			 toggle = document.querySelector('.toggle input')
 
 			toggle.addEventListener('click', () => {
@@ -260,15 +301,30 @@
 		</script></div></div><div class="box outcome"  id="box5"><button type="button" class="collapsible"
 			"> 
 <h2 style= "line-height:20px;"> <i id="sideBtn5" class='bx bx-caret-right'></i> 
-			Hw5 Proofs And Induction </h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: 11/16/21 at 11pm</p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
+			Hw5 Proofs And Induction </h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: </p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
 		href=../output/assignments/hw5-proofs-and-induction-CSE20F21.pdf download>PDF</a> <a tabindex = "2" style= "display: inline-block;" class="button LaTeX" aria-label="Download .LaTeX" 
 			href=../notes/assignments-flat/hw5-proofs-and-induction-CSE20F21.tex download>LaTeX</a>  <a tabindex = "2" style= "display: inline-block;" class="button HTML" aria-label="Open HTML file of Document in New Tab" 
-			href= ../output/assignments/hw5-proofs-and-induction-CSE20F21.html target="HTML">Raw HTML</a> <a tabindex = "2" class="button on" aria-label="Solutions On" id="solutionsOnButton5/" href="javascript:void(0)" >Solutions On</a>
-			<a tabindex = "2" class="button off" aria-label="Solutions Off" id="solutionsOffButton5/" href="javascript:void(0)" >Solutions Off</a>  <script> document.getElementById("solutionsOnButton5/").onclick = function() {annotations(1,
-			"../output/assignments/hw5-proofs-and-induction-CSE20F21.pdf","../files/hw5-sol-CSE20F21.pdf", "hw5-proofs-and-induction-CSE20F21")};document.getElementById("solutionsOffButton5/").onclick = function() {annotations(0,
-			"../output/assignments/hw5-proofs-and-induction-CSE20F21.pdf","../files/hw5-sol-CSE20F21.pdf", "hw5-proofs-and-induction-CSE20F21")};
-			</script> <br> <iframe class="PDFjs" id="hw5-proofs-and-induction-CSE20F21" src="web/viewer.html?file=../../output/assignments/hw5-proofs-and-induction-CSE20F21.pdf" 
-		title="webviewer" frameborder="0" width="100%" height="600"></iframe> <script>
+			href= ../output/assignments/hw5-proofs-and-induction-CSE20F21.html target="HTML">Raw HTML</a><br> <label>Solutions<input type="checkbox" id="toggle-5">
+				<span class="slider round"></span>
+				<script>
+					annotated5 = false;
+					document.getElementById("toggle-5").onclick = function() {
+						if(annotated5  == false) {
+							console.log("false to true");
+							annotated5  = true;
+							annotations(true, "../output/assignments/hw5-proofs-and-induction-CSE20F21.pdf","../files/hw5-sol-CSE20F21.pdf", "hw5-proofs-and-induction-CSE20F21")
+						}
+						else {
+							console.log("true to false");
+							annotated5  = false;
+							annotations(false, "../output/assignments/hw5-proofs-and-induction-CSE20F21.pdf","../files/hw5-sol-CSE20F21.pdf", "hw5-proofs-and-induction-CSE20F21")
+						}
+					}
+
+					
+				</script>
+			 <br> <iframe class="PDFjs" id="hw5-proofs-and-induction-CSE20F21" src="web/viewer.html?file=../../output/assignments/hw5-proofs-and-induction-CSE20F21.pdf" 
+		title="webviewer" frameborder="0" width="300%" height="600"></iframe> <script>
 			 toggle = document.querySelector('.toggle input')
 
 			toggle.addEventListener('click', () => {
@@ -298,12 +354,27 @@
 			Hw6 Proofs Numbers Cardinality </h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: </p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
 		href=../output/assignments/hw6-proofs-numbers-cardinality-CSE20F21.pdf download>PDF</a> <a tabindex = "2" style= "display: inline-block;" class="button LaTeX" aria-label="Download .LaTeX" 
 			href=../notes/assignments-flat/hw6-proofs-numbers-cardinality-CSE20F21.tex download>LaTeX</a>  <a tabindex = "2" style= "display: inline-block;" class="button HTML" aria-label="Open HTML file of Document in New Tab" 
-			href= ../output/assignments/hw6-proofs-numbers-cardinality-CSE20F21.html target="HTML">Raw HTML</a> <a tabindex = "2" class="button on" aria-label="Solutions On" id="solutionsOnButton6/" href="javascript:void(0)" >Solutions On</a>
-			<a tabindex = "2" class="button off" aria-label="Solutions Off" id="solutionsOffButton6/" href="javascript:void(0)" >Solutions Off</a>  <script> document.getElementById("solutionsOnButton6/").onclick = function() {annotations(1,
-			"../output/assignments/hw6-proofs-numbers-cardinality-CSE20F21.pdf","../files/hw6-sol-CSE20F21.pdf", "hw6-proofs-numbers-cardinality-CSE20F21")};document.getElementById("solutionsOffButton6/").onclick = function() {annotations(0,
-			"../output/assignments/hw6-proofs-numbers-cardinality-CSE20F21.pdf","../files/hw6-sol-CSE20F21.pdf", "hw6-proofs-numbers-cardinality-CSE20F21")};
-			</script> <br> <iframe class="PDFjs" id="hw6-proofs-numbers-cardinality-CSE20F21" src="web/viewer.html?file=../../output/assignments/hw6-proofs-numbers-cardinality-CSE20F21.pdf" 
-		title="webviewer" frameborder="0" width="100%" height="600"></iframe> <script>
+			href= ../output/assignments/hw6-proofs-numbers-cardinality-CSE20F21.html target="HTML">Raw HTML</a><br> <label>Solutions<input type="checkbox" id="toggle-6">
+				<span class="slider round"></span>
+				<script>
+					annotated6 = false;
+					document.getElementById("toggle-6").onclick = function() {
+						if(annotated6  == false) {
+							console.log("false to true");
+							annotated6  = true;
+							annotations(true, "../output/assignments/hw6-proofs-numbers-cardinality-CSE20F21.pdf","../files/hw6-sol-CSE20F21.pdf", "hw6-proofs-numbers-cardinality-CSE20F21")
+						}
+						else {
+							console.log("true to false");
+							annotated6  = false;
+							annotations(false, "../output/assignments/hw6-proofs-numbers-cardinality-CSE20F21.pdf","../files/hw6-sol-CSE20F21.pdf", "hw6-proofs-numbers-cardinality-CSE20F21")
+						}
+					}
+
+					
+				</script>
+			 <br> <iframe class="PDFjs" id="hw6-proofs-numbers-cardinality-CSE20F21" src="web/viewer.html?file=../../output/assignments/hw6-proofs-numbers-cardinality-CSE20F21.pdf" 
+		title="webviewer" frameborder="0" width="300%" height="600"></iframe> <script>
 			 toggle = document.querySelector('.toggle input')
 
 			toggle.addEventListener('click', () => {
@@ -330,15 +401,30 @@
 		</script></div></div><div class="box outcome"  id="box7"><button type="button" class="collapsible"
 			"> 
 <h2 style= "line-height:20px;"> <i id="sideBtn7" class='bx bx-caret-right'></i> 
-			Hw7 Functions And Relations </h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: 11/30/21 at 11pm</p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
+			Hw7 Functions And Relations </h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: </p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
 		href=../output/assignments/hw7-functions-and-relations-CSE20F21.pdf download>PDF</a> <a tabindex = "2" style= "display: inline-block;" class="button LaTeX" aria-label="Download .LaTeX" 
 			href=../notes/assignments-flat/hw7-functions-and-relations-CSE20F21.tex download>LaTeX</a>  <a tabindex = "2" style= "display: inline-block;" class="button HTML" aria-label="Open HTML file of Document in New Tab" 
-			href= ../output/assignments/hw7-functions-and-relations-CSE20F21.html target="HTML">Raw HTML</a> <a tabindex = "2" class="button on" aria-label="Solutions On" id="solutionsOnButton7/" href="javascript:void(0)" >Solutions On</a>
-			<a tabindex = "2" class="button off" aria-label="Solutions Off" id="solutionsOffButton7/" href="javascript:void(0)" >Solutions Off</a>  <script> document.getElementById("solutionsOnButton7/").onclick = function() {annotations(1,
-			"../output/assignments/hw7-functions-and-relations-CSE20F21.pdf","../files/hw7-sol-CSE20F21.pdf", "hw7-functions-and-relations-CSE20F21")};document.getElementById("solutionsOffButton7/").onclick = function() {annotations(0,
-			"../output/assignments/hw7-functions-and-relations-CSE20F21.pdf","../files/hw7-sol-CSE20F21.pdf", "hw7-functions-and-relations-CSE20F21")};
-			</script> <br> <iframe class="PDFjs" id="hw7-functions-and-relations-CSE20F21" src="web/viewer.html?file=../../output/assignments/hw7-functions-and-relations-CSE20F21.pdf" 
-		title="webviewer" frameborder="0" width="100%" height="600"></iframe> <script>
+			href= ../output/assignments/hw7-functions-and-relations-CSE20F21.html target="HTML">Raw HTML</a><br> <label>Solutions<input type="checkbox" id="toggle-7">
+				<span class="slider round"></span>
+				<script>
+					annotated7 = false;
+					document.getElementById("toggle-7").onclick = function() {
+						if(annotated7  == false) {
+							console.log("false to true");
+							annotated7  = true;
+							annotations(true, "../output/assignments/hw7-functions-and-relations-CSE20F21.pdf","../files/hw7-sol-CSE20F21.pdf", "hw7-functions-and-relations-CSE20F21")
+						}
+						else {
+							console.log("true to false");
+							annotated7  = false;
+							annotations(false, "../output/assignments/hw7-functions-and-relations-CSE20F21.pdf","../files/hw7-sol-CSE20F21.pdf", "hw7-functions-and-relations-CSE20F21")
+						}
+					}
+
+					
+				</script>
+			 <br> <iframe class="PDFjs" id="hw7-functions-and-relations-CSE20F21" src="web/viewer.html?file=../../output/assignments/hw7-functions-and-relations-CSE20F21.pdf" 
+		title="webviewer" frameborder="0" width="300%" height="600"></iframe> <script>
 			 toggle = document.querySelector('.toggle input')
 
 			toggle.addEventListener('click', () => {
@@ -365,11 +451,11 @@
 		</script></div></div><div class="box outcome"  id="box8"><button type="button" class="collapsible"
 			"> 
 <h2 style= "line-height:20px;"> <i id="sideBtn8" class='bx bx-caret-right'></i> 
-			Project </h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> Part 1 due: 10/14/2021<br>Part 2 due: 11/4/2021<br>Part 3 due: 12/2/2021,<br>This is an Individual Assignment</p> <p> Due: Part 3 due 12/2/21 at 11pm</p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
+			Project </h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> Part 1 due: 10/14/2021<br>Part 2 due: 11/4/2021<br>Part 3 due: 12/2/2021,<br>This is an Individual Assignment</p> <p> Due: </p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
 		href=../output/assignments/project-CSE20F21.pdf download>PDF</a> <a tabindex = "2" style= "display: inline-block;" class="button LaTeX" aria-label="Download .LaTeX" 
 			href=../notes/assignments-flat/project-CSE20F21.tex download>LaTeX</a>  <a tabindex = "2" style= "display: inline-block;" class="button HTML" aria-label="Open HTML file of Document in New Tab" 
-			href= ../output/assignments/project-CSE20F21.html target="HTML">Raw HTML</a> <br> <iframe class="PDFjs" id="project-CSE20F21" src="web/viewer.html?file=../../output/assignments/project-CSE20F21.pdf" 
-		title="webviewer" frameborder="0" width="100%" height="600"></iframe> <script>
+			href= ../output/assignments/project-CSE20F21.html target="HTML">Raw HTML</a><br> <br> <iframe class="PDFjs" id="project-CSE20F21" src="web/viewer.html?file=../../output/assignments/project-CSE20F21.pdf" 
+		title="webviewer" frameborder="0" width="300%" height="600"></iframe> <script>
 			 toggle = document.querySelector('.toggle input')
 
 			toggle.addEventListener('click', () => {
@@ -499,21 +585,19 @@
 		</div>
 
 		<script>
-			function annotations(sw, notes, annotated,id) {
+			function annotations(boolean, notes, annotated,id) {
 				var doc;
 				var drive;
-
-				//0 value means annotations are off 
-				if (sw == 0) {
-					doc = "web/viewer.html?file=../"+notes
-				}  
-
-				//1 value turns annotations on
-				else {
+				if (boolean) {
 					doc = "web/viewer.html?file=../" +annotated
-				}
+					
+				} 
 
-                document.getElementById(id).src = doc;
+				else {
+					doc = "web/viewer.html?file=../"+notes
+				}
+				
+				document.getElementById(id).src = doc;
 			}
 		</script>
 
