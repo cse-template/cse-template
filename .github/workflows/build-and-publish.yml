@@ -71,3 +71,4 @@ jobs:
         with:
           path: |
             ~/generated
+          key: generated-key
