@@ -66,4 +66,9 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./generated
           publish_branch: published
-
+      - name: Cache Generated
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/generated
+          key: generated-key
