@@ -17,7 +17,7 @@
 	<meta name="description" content="Discrete Math for Computer Science">
 	<meta name="author" content="Mia Minnes">
 
-	<title>CSE 1000 Fall 2021</title>
+	<title>CSE X Fall 2022</title>
 
 	<!-- Bootstrap Core CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -42,7 +42,7 @@
 	<div class="content">
 
 		 <div class="sidebar"id="unit"><div class="logo-details"><div class="logo_name">
-	<i class='bx bx-home-smile'></i> </div>  <a href=courseInfo.html class="logo_name">CSE 1000 Fall 2021</a> <!--NAME-->
+	<i class='bx bx-home-smile'></i> </div>  <a href=courseInfo.html class="logo_name">CSE X Fall 2022</a> <!--NAME-->
 			<i class='bx bx-chevron-right' id="btn" ></i>
 			</div>
 			
@@ -81,7 +81,7 @@
 	        </script>
 
 		 <div id="mySidebar" class="collapsedSidebar">
-			<a href=courseInfo.html class="homeMobile"> CSE 1000 Fall 2021</a> <!--NAME-->
+			<a href=courseInfo.html class="homeMobile"> CSE X Fall 2022</a> <!--NAME-->
 		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×&nbsp;</a>
 			<a href=overview_calendar.html>Calendar</a><a href="assignments.html"> Assignments </a><a href="glossary.html"> Glossary </a><a href="supplemental_videos.html"> Supplemental Videos </a><a href="supplemental_videos.html"> Office Hours </a><a href= "unit1.html"">Week 0 and 1</a><a href= "unit2.html"">Week 2</a> </div>
 
@@ -102,10 +102,6 @@
 		</script>
 		
 
-
-		
-
-
 		<!-- Overview -->
 		<div class="row">
 			<div class="col-lg-12 text-left">
@@ -115,12 +111,11 @@
 		</div>
 
 		<div class="container" style="margin-left: 0px; padding: 0px;">
-
 			<div id="accordion">
-				<div class="box outcome"  id="box1"><button type="button" class="collapsible"
-			"> 
+				<div class="box outcome"  id="box1"><button type="button" class="collapsible"> 
 <h2 style= "line-height:20px;"> <i id="sideBtn1" class='bx bx-caret-right'></i> 
-			Hw1 Title</h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> Description</p> <p> Due: 10/5/21 at 11pm</p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
+			Hw1 Title</h2> </button> 
+ <div class="boxContent" style="display: none;"> <hr> <p> Description</p> <p> Due: 10/5/21 at 11pm</p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
 		href=../output/assignments/hw1-title.pdf download>PDF</a> <a tabindex = "2" style= "display: inline-block;" class="button LaTeX" aria-label="Download .LaTeX" 
 			href= download>LaTeX</a>  <a tabindex = "2" style= "display: inline-block;" class="button HTML" aria-label="Open HTML file of Document in New Tab" 
 			href= ../output/assignments/hw1-title.html target="HTML">Raw HTML</a><br> <br> <iframe class="PDFjs" id="hw1-title" src="web/viewer.html?file=../../output/assignments/hw1-title.pdf" 
@@ -131,27 +126,10 @@
     		 onOff = toggle.parentNode.querySelector('.onoff1')
     		onOff.textContent = toggle.checked ? 'ON' : 'OFF'
 			})
-			
-			function annotations(notes, annotated,id) {
-				var doc;
-				var drive;
-				 toggle = document.querySelector('.toggle input')
-				//0 value means annotations are off 
-				if (toggle.checked) {
-					doc = "web/viewer.html?file=../"+notes
-				} 
-
-				//1 value turns annotations on
-				else {
-					doc = "web/viewer.html?file=../" +annotated
-				}
-				
-                document.getElementById(id).src = doc;
-			}
-		</script></div></div><div class="box outcome"  id="box2"><button type="button" class="collapsible"
-			"> 
+		</script></div></div><div class="box outcome"  id="box2"><button type="button" class="collapsible"> 
 <h2 style= "line-height:20px;"> <i id="sideBtn2" class='bx bx-caret-right'></i> 
-			Hw2 Numbers </h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: </p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
+			Hw2 Numbers </h2> </button> 
+ <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: </p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
 		href=../output/assignments/hw2-numbers-CSE20F21.pdf download>PDF</a> <a tabindex = "2" style= "display: inline-block;" class="button LaTeX" aria-label="Download .LaTeX" 
 			href=../notes/assignments-flat/hw2-numbers-CSE20F21.tex download>LaTeX</a>  <a tabindex = "2" style= "display: inline-block;" class="button HTML" aria-label="Open HTML file of Document in New Tab" 
 			href= ../output/assignments/hw2-numbers-CSE20F21.html target="HTML">Raw HTML</a><br> <label>Solutions<input type="checkbox" id="toggle-2">
@@ -181,27 +159,10 @@
     		 onOff = toggle.parentNode.querySelector('.onoff2')
     		onOff.textContent = toggle.checked ? 'ON' : 'OFF'
 			})
-			
-			function annotations(notes, annotated,id) {
-				var doc;
-				var drive;
-				 toggle = document.querySelector('.toggle input')
-				//0 value means annotations are off 
-				if (toggle.checked) {
-					doc = "web/viewer.html?file=../"+notes
-				} 
-
-				//1 value turns annotations on
-				else {
-					doc = "web/viewer.html?file=../" +annotated
-				}
-				
-                document.getElementById(id).src = doc;
-			}
-		</script></div></div><div class="box outcome"  id="box3"><button type="button" class="collapsible"
-			"> 
+		</script></div></div><div class="box outcome"  id="box3"><button type="button" class="collapsible"> 
 <h2 style= "line-height:20px;"> <i id="sideBtn3" class='bx bx-caret-right'></i> 
-			Hw3 Circuits And Logic </h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: </p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
+			Hw3 Circuits And Logic </h2> </button> 
+ <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: </p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
 		href=../output/assignments/hw3-circuits-and-logic-CSE20F21.pdf download>PDF</a> <a tabindex = "2" style= "display: inline-block;" class="button LaTeX" aria-label="Download .LaTeX" 
 			href=../notes/assignments-flat/hw3-circuits-and-logic-CSE20F21.tex download>LaTeX</a>  <a tabindex = "2" style= "display: inline-block;" class="button HTML" aria-label="Open HTML file of Document in New Tab" 
 			href= ../output/assignments/hw3-circuits-and-logic-CSE20F21.html target="HTML">Raw HTML</a><br> <label>Solutions<input type="checkbox" id="toggle-3">
@@ -231,27 +192,10 @@
     		 onOff = toggle.parentNode.querySelector('.onoff3')
     		onOff.textContent = toggle.checked ? 'ON' : 'OFF'
 			})
-			
-			function annotations(notes, annotated,id) {
-				var doc;
-				var drive;
-				 toggle = document.querySelector('.toggle input')
-				//0 value means annotations are off 
-				if (toggle.checked) {
-					doc = "web/viewer.html?file=../"+notes
-				} 
-
-				//1 value turns annotations on
-				else {
-					doc = "web/viewer.html?file=../" +annotated
-				}
-				
-                document.getElementById(id).src = doc;
-			}
-		</script></div></div><div class="box outcome"  id="box4"><button type="button" class="collapsible"
-			"> 
+		</script></div></div><div class="box outcome"  id="box4"><button type="button" class="collapsible"> 
 <h2 style= "line-height:20px;"> <i id="sideBtn4" class='bx bx-caret-right'></i> 
-			Hw4 Proofs And Sets </h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: </p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
+			Hw4 Proofs And Sets </h2> </button> 
+ <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: </p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
 		href=../output/assignments/hw4-proofs-and-sets-CSE20F21.pdf download>PDF</a> <a tabindex = "2" style= "display: inline-block;" class="button LaTeX" aria-label="Download .LaTeX" 
 			href=../notes/assignments-flat/hw4-proofs-and-sets-CSE20F21.tex download>LaTeX</a>  <a tabindex = "2" style= "display: inline-block;" class="button HTML" aria-label="Open HTML file of Document in New Tab" 
 			href= ../output/assignments/hw4-proofs-and-sets-CSE20F21.html target="HTML">Raw HTML</a><br> <label>Solutions<input type="checkbox" id="toggle-4">
@@ -281,27 +225,10 @@
     		 onOff = toggle.parentNode.querySelector('.onoff4')
     		onOff.textContent = toggle.checked ? 'ON' : 'OFF'
 			})
-			
-			function annotations(notes, annotated,id) {
-				var doc;
-				var drive;
-				 toggle = document.querySelector('.toggle input')
-				//0 value means annotations are off 
-				if (toggle.checked) {
-					doc = "web/viewer.html?file=../"+notes
-				} 
-
-				//1 value turns annotations on
-				else {
-					doc = "web/viewer.html?file=../" +annotated
-				}
-				
-                document.getElementById(id).src = doc;
-			}
-		</script></div></div><div class="box outcome"  id="box5"><button type="button" class="collapsible"
-			"> 
+		</script></div></div><div class="box outcome"  id="box5"><button type="button" class="collapsible"> 
 <h2 style= "line-height:20px;"> <i id="sideBtn5" class='bx bx-caret-right'></i> 
-			Hw5 Proofs And Induction </h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: </p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
+			Hw5 Proofs And Induction </h2> </button> 
+ <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: </p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
 		href=../output/assignments/hw5-proofs-and-induction-CSE20F21.pdf download>PDF</a> <a tabindex = "2" style= "display: inline-block;" class="button LaTeX" aria-label="Download .LaTeX" 
 			href=../notes/assignments-flat/hw5-proofs-and-induction-CSE20F21.tex download>LaTeX</a>  <a tabindex = "2" style= "display: inline-block;" class="button HTML" aria-label="Open HTML file of Document in New Tab" 
 			href= ../output/assignments/hw5-proofs-and-induction-CSE20F21.html target="HTML">Raw HTML</a><br> <label>Solutions<input type="checkbox" id="toggle-5">
@@ -331,27 +258,10 @@
     		 onOff = toggle.parentNode.querySelector('.onoff5')
     		onOff.textContent = toggle.checked ? 'ON' : 'OFF'
 			})
-			
-			function annotations(notes, annotated,id) {
-				var doc;
-				var drive;
-				 toggle = document.querySelector('.toggle input')
-				//0 value means annotations are off 
-				if (toggle.checked) {
-					doc = "web/viewer.html?file=../"+notes
-				} 
-
-				//1 value turns annotations on
-				else {
-					doc = "web/viewer.html?file=../" +annotated
-				}
-				
-                document.getElementById(id).src = doc;
-			}
-		</script></div></div><div class="box outcome"  id="box6"><button type="button" class="collapsible"
-			"> 
+		</script></div></div><div class="box outcome"  id="box6"><button type="button" class="collapsible"> 
 <h2 style= "line-height:20px;"> <i id="sideBtn6" class='bx bx-caret-right'></i> 
-			Hw6 Proofs Numbers Cardinality </h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: </p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
+			Hw6 Proofs Numbers Cardinality </h2> </button> 
+ <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: </p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
 		href=../output/assignments/hw6-proofs-numbers-cardinality-CSE20F21.pdf download>PDF</a> <a tabindex = "2" style= "display: inline-block;" class="button LaTeX" aria-label="Download .LaTeX" 
 			href=../notes/assignments-flat/hw6-proofs-numbers-cardinality-CSE20F21.tex download>LaTeX</a>  <a tabindex = "2" style= "display: inline-block;" class="button HTML" aria-label="Open HTML file of Document in New Tab" 
 			href= ../output/assignments/hw6-proofs-numbers-cardinality-CSE20F21.html target="HTML">Raw HTML</a><br> <label>Solutions<input type="checkbox" id="toggle-6">
@@ -381,27 +291,10 @@
     		 onOff = toggle.parentNode.querySelector('.onoff6')
     		onOff.textContent = toggle.checked ? 'ON' : 'OFF'
 			})
-			
-			function annotations(notes, annotated,id) {
-				var doc;
-				var drive;
-				 toggle = document.querySelector('.toggle input')
-				//0 value means annotations are off 
-				if (toggle.checked) {
-					doc = "web/viewer.html?file=../"+notes
-				} 
-
-				//1 value turns annotations on
-				else {
-					doc = "web/viewer.html?file=../" +annotated
-				}
-				
-                document.getElementById(id).src = doc;
-			}
-		</script></div></div><div class="box outcome"  id="box7"><button type="button" class="collapsible"
-			"> 
+		</script></div></div><div class="box outcome"  id="box7"><button type="button" class="collapsible"> 
 <h2 style= "line-height:20px;"> <i id="sideBtn7" class='bx bx-caret-right'></i> 
-			Hw7 Functions And Relations </h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: </p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
+			Hw7 Functions And Relations </h2> </button> 
+ <div class="boxContent" style="display: none;"> <hr> <p> This is a group optional assignment</p> <p> Due: </p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
 		href=../output/assignments/hw7-functions-and-relations-CSE20F21.pdf download>PDF</a> <a tabindex = "2" style= "display: inline-block;" class="button LaTeX" aria-label="Download .LaTeX" 
 			href=../notes/assignments-flat/hw7-functions-and-relations-CSE20F21.tex download>LaTeX</a>  <a tabindex = "2" style= "display: inline-block;" class="button HTML" aria-label="Open HTML file of Document in New Tab" 
 			href= ../output/assignments/hw7-functions-and-relations-CSE20F21.html target="HTML">Raw HTML</a><br> <label>Solutions<input type="checkbox" id="toggle-7">
@@ -431,27 +324,10 @@
     		 onOff = toggle.parentNode.querySelector('.onoff7')
     		onOff.textContent = toggle.checked ? 'ON' : 'OFF'
 			})
-			
-			function annotations(notes, annotated,id) {
-				var doc;
-				var drive;
-				 toggle = document.querySelector('.toggle input')
-				//0 value means annotations are off 
-				if (toggle.checked) {
-					doc = "web/viewer.html?file=../"+notes
-				} 
-
-				//1 value turns annotations on
-				else {
-					doc = "web/viewer.html?file=../" +annotated
-				}
-				
-                document.getElementById(id).src = doc;
-			}
-		</script></div></div><div class="box outcome"  id="box8"><button type="button" class="collapsible"
-			"> 
+		</script></div></div><div class="box outcome"  id="box8"><button type="button" class="collapsible"> 
 <h2 style= "line-height:20px;"> <i id="sideBtn8" class='bx bx-caret-right'></i> 
-			Project </h2> </button> <div class="boxContent" style="display: none;"> <hr> <p> Part 1 due: 10/14/2021<br>Part 2 due: 11/4/2021<br>Part 3 due: 12/2/2021,<br>This is an Individual Assignment</p> <p> Due: </p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
+			Project </h2> </button> 
+ <div class="boxContent" style="display: none;"> <hr> <p> Part 1 due: 10/14/2021<br>Part 2 due: 11/4/2021<br>Part 3 due: 12/2/2021,<br>This is an Individual Assignment</p> <p> Due: </p> <p> <a tabindex = "2" class="button PDF" aria-label="Download PDF" 
 		href=../output/assignments/project-CSE20F21.pdf download>PDF</a> <a tabindex = "2" style= "display: inline-block;" class="button LaTeX" aria-label="Download .LaTeX" 
 			href=../notes/assignments-flat/project-CSE20F21.tex download>LaTeX</a>  <a tabindex = "2" style= "display: inline-block;" class="button HTML" aria-label="Open HTML file of Document in New Tab" 
 			href= ../output/assignments/project-CSE20F21.html target="HTML">Raw HTML</a><br> <br> <iframe class="PDFjs" id="project-CSE20F21" src="web/viewer.html?file=../../output/assignments/project-CSE20F21.pdf" 
@@ -462,23 +338,6 @@
     		 onOff = toggle.parentNode.querySelector('.onoff8')
     		onOff.textContent = toggle.checked ? 'ON' : 'OFF'
 			})
-			
-			function annotations(notes, annotated,id) {
-				var doc;
-				var drive;
-				 toggle = document.querySelector('.toggle input')
-				//0 value means annotations are off 
-				if (toggle.checked) {
-					doc = "web/viewer.html?file=../"+notes
-				} 
-
-				//1 value turns annotations on
-				else {
-					doc = "web/viewer.html?file=../" +annotated
-				}
-				
-                document.getElementById(id).src = doc;
-			}
 		</script></div></div><script>
 	var coll = document.getElementsByClassName("collapsible");
 	var i;
@@ -581,7 +440,6 @@
 
 	</script>
 			</div>
-
 		</div>
 
 		<script>
@@ -600,12 +458,8 @@
 				document.getElementById(id).src = doc;
 			}
 		</script>
-
-
-
 	</div>
 	
-
 	<!-- jQuery Version 1.11.1 -->
 	<script src="js/jquery.js"></script>
 
