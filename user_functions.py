@@ -183,7 +183,7 @@ sidebarButtonsUnitData = json.loads(open("sidebar_buttons_unit.json").read())
 def secondaryUnitBoxes():
 	#content for the non-mobile secondary unit sidebar (will have all of the weeks)
 	secondaryUnitButtonsContent = """<div class="sidebar secondary"id="unit2" style="margin-left: 78px; width: 70px;">
-			<ul class="nav-list"> """
+			<ul class="nav-list" style="margin-top: 100px"> """
 
 	for i in range(0,len(unitData)):
 		secondaryUnitButtonsContent += "<li>"
@@ -538,10 +538,9 @@ def create_assignment():
 		#format assignment name, as namme is just file name
 		assignmentName= element['name'].replace("-", " ").title().replace("Cse20F21","")
 
-		templateString += """<div class="box outcome"  id="box"""+str(collapseVar)+""""><button type="button" class="collapsible"
-			"> \n"""
+		templateString += """<div class="box outcome"  id="box"""+str(collapseVar)+""""><button type="button" class="collapsible"> \n"""
 		templateString += """<h2 style= "line-height:20px;"> <i id="sideBtn"""+ str(collapseVar)+ """" class='bx bx-caret-right'></i> 
-			""" + assignmentName + """</h2> </button> <div class="boxContent" style="display: none;"> <hr>"""
+			""" + assignmentName + """</h2> </button> \n <div class="boxContent" style="display: none;"> <hr>"""
             
 
     	#Assignment Information
@@ -619,23 +618,6 @@ def create_assignment():
     		 onOff = toggle.parentNode.querySelector('.onoff"""+str(collapseVar)+"""')
     		onOff.textContent = toggle.checked ? 'ON' : 'OFF'
 			})
-			
-			function annotations(notes, annotated,id) {
-				var doc;
-				var drive;
-				 toggle = document.querySelector('.toggle input')
-				//0 value means annotations are off 
-				if (toggle.checked) {
-					doc = "web/viewer.html?file=../"+notes
-				} 
-
-				//1 value turns annotations on
-				else {
-					doc = "web/viewer.html?file=../" +annotated
-				}
-				
-                document.getElementById(id).src = doc;
-			}
 		</script>"""
     	#closing div for collapsible menu item 
 		templateString += """</div></div>"""

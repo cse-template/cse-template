@@ -161,7 +161,7 @@ page_variables.update(dict(
     content = content
 ))
 
-#substitute settings unitData with appropriate variables 
+# Substitute settings unitData with appropriate variables 
 result = templateString.substitute(page_variables)
 
 write_if_different("generated/website/glossary.html", result)
