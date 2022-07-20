@@ -748,6 +748,15 @@ def create_office_hours():
 	officehours = websiteData['Office Hours']
 	return officehours
 
+def create_full_definition():
+	full_definition = websiteData['Compiled Activity Snippets']
+	fullDefinition = ""
+	
+	if(full_definition == "True"):
+		fullDefinition = """<p>Compiled defintions file <a href="../output/activity-snippets/full-definition.pdf" download>download</a></p>"""
+	
+	return fullDefinition
+
 
 def write_if_different(filename, contents):
     try:
@@ -778,6 +787,7 @@ def create_site_variables():
 		'unitBoxes': create_unit_boxes(),
 		'outcomeBoxes': create_outcome_boxes(),
 		'applicationBoxes': create_application_boxes(),
+		'fullDefinition': create_full_definition(),
 
 		'copyrightFooter': create_copyright(),
 		'feedbackForm': create_feedback(),
