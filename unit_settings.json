@@ -1,8 +1,8 @@
 [
     {
         "header": "Week 0 and 1",
-        "outcomes": "Introduction and data types",
-        "CalendarInfo": " Dates: 9/24/21 - 10/1/21<br> Welcome! See you Friday 9/24 in Galbraith Hall. Lecture will be in WLH 2001 on Monday 9/27 and Wednesday 9/29. It will be via Zoom on Friday Oct 1. Please take our <a href=\"https://forms.gle/gvibFnNixxqcWbaU8\" target=\"_blank\">pre-class survey.</a> ",
+        "outcomes": "Introduction",
+        "CalendarInfo": " Dates: 9/24/21 - 10/1/21<br> Welcome! See you Friday 9/24 in Galbraith Hall.",
         "ExpandInCalendar": false,
         "content": [
             {
@@ -11,23 +11,15 @@
             }, 
             {
                 "name": "Lecture and Discussion podcast",
-                "source": "<p>See <a href=\"https://podcast.ucsd.edu/watch/fa21/cse20_a00/1\">videos on podcast.ucsd.edu</a> for Week 0 Friday and Week 1 Monday and Wednesday. See <a href=\"https://youtu.be/4i47EJ4yNaY\" target=\"_blank\">Week 1 Friday video on YouTube</a></p>"
+                "source": "<p>See <a href=\"https://podcast.ucsd.edu/watch/fa21/cse20_a00/1\">videos on podcast.ucsd.edu</a> for Week 0 Friday and Week 1 Monday and Wednesday.</p>"
             },
             {
                 "name": "Discussion slides",
                 "source": "<p><a href=\"../files/DiscussionWeek1annotated.pptx\">Download pptx slides</a></p>"
             },
             {
-                "name": "Lecture Hall (Week 0)",
+                "name": "Lecture Hall",
                 "source": "<br><iframe height=\"600px\" width=\"100%\" src=\"https://map.concept3d.com/?id=1005#!w/32.8738,-117.24095,0;32.88187,-117.23338,0;0\" frameborder=\"0\"></iframe>"
-            },
-            {
-                "name": "Lecture Hall (Week 1 and beyond)",
-                "source": "<iframe height=\"600px\" width=\"100%\" src=\"https://map.concept3d.com/?id=1005#!m/553665\" height=\"600px\" width=\"100%\" frameBorder=\"0\"></iframe>"
-            },
-            {
-                "name": "(Video) Course Intro",
-                "source": "https://www.youtube.com/embed/2KbOaCLS-cQ"
             }
 
         ],
@@ -42,7 +34,7 @@
     }, 
     {
         "header": "Week 2",
-        "outcomes": "Number representations",
+        "outcomes": "Topic 2",
         "CalendarInfo": " Dates: 10/4/21-10/8/21",
         "ExpandInCalendar": false,
         "content": [
@@ -57,10 +49,6 @@
             {
                 "name": "Discussion slides",
                 "source": "<p><a href=\"../files/DiscussionWeek2.pptx\">Download pptx slides</a></p>"
-	        },
-	        {
-                "name": "Discussion slides with Annotation",
-                "source": "<p><a href=\"../files/DiscussionWeek2annotated.pptx\">Download pptx slides</a></p>"
 	        }
         ],
         "Due Dates": [

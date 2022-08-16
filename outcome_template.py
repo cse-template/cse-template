@@ -16,7 +16,8 @@ for big in outcomeData:
 			if(tex == None):
 				tex=""
 			
-			file = small.replace(" ", "-")
+			file = small.replace(" ", "-").lower()
+			print(file)
 			pdf="../output/outcome/" + file + ".pdf"
 			html="../output/outcome/" + file + ".html"
 			
