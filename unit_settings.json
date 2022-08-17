@@ -53,8 +53,12 @@
         ],
         "Due Dates": [
             {
-                "name": "hw1-title",
+                "name": "hw1",
                 "due": "10/5/21 at 11pm"
+            },
+            {
+                "name": "hw2",
+                "due": "10/7/21 at 11pm"
             },
             {
                 "name": "Review Quiz",

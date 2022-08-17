@@ -1,13 +1,13 @@
 [
    {
-      "name": "hw",
+      "name": "hw1",
       "addExtensions": true,
-      "Information": "Description"
+      "Information": "Description of the assignment"
    },
    {
-      "name": "hw",
+      "name": "hw2",
       "addExtensions": true,
       "Information": "This is a group optional assignment",
-      "solutionsFile": "hw.pdf"
+      "solutionsFile": "hw2.pdf"
    }
 ]
