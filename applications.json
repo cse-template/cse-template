@@ -1,17 +1,11 @@
 {
-    "Numbers":{
-        "Icon": "NM"
+    "Application 1":{
+        "Icon": "1"
     },
-    "Recommendation Systems":{ 
-        "Icon": "RS"
+    "Application 2":{
+        "Icon": "2"
     },
-    "Computers":{
-        "Icon": "CP"
-    },
-    "Codes and Information":{
-        "Icon": "CI"
-    },
-    "Bioinformatics":{
-        "Icon":"BI"
+    "Application 3":{
+        "Icon": "3"
     }
 }
